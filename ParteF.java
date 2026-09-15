@@ -1,5 +1,4 @@
 public class ParteF {
-    public class MainParteF {
         public static void main(String[] args) {
             // Ejercicio 30
             Estudiante e1 = new Estudiante();
@@ -15,4 +14,4 @@ public class ParteF {
             Libro copia = new Libro(original);
         }
     }
-}
+

@@ -85,6 +85,8 @@ class CuentaBancaria {
     String titular;
     double saldo;
 
+     CuentaBancaria() {};
+
      // Ejercicio 27
      CuentaBancaria(String numero, String titular, double saldoInicial) {
          this.numero = numero;
