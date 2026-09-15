@@ -1,4 +1,3 @@
-class clases{}
 #Ejercicio 1
 class Estudiante {
     String nombre;
