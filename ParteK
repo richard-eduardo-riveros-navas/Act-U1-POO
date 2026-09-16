@@ -1,0 +1,29 @@
+Ejercicio 61 — Docente
+
+Atributos: nombre, especialidad, añosExperiencia
+Métodos: dictarClase(), calificarExamen(), mostrarPerfil()
+Objetos posibles: "María Torres, Ingeniería de Software, 8 años"; "Carlos Ruiz, Bases de Datos, 3 años"
+
+Ejercicio 62 — Biblioteca
+
+Atributos: nombre, direccion, librosDisponibles
+Métodos: prestarLibro(), recibirLibro(), mostrarCatalogo()
+Objetos posibles: "Biblioteca Central", "Biblioteca de Ingeniería"
+
+Ejercicio 63 — Hospital
+
+Atributos: nombre, direccion, numeroCamas
+Métodos: admitirPaciente(), darDeAlta(), mostrarDisponibilidad()
+Objetos posibles: "Hospital San Rafael, 120 camas"; "Clínica del Norte, 60 camas"
+
+Ejercicio 64 — Tienda
+
+Atributos: nombre, direccion, productosEnVenta
+Métodos: venderProducto(), recibirMercancia(), mostrarInventario()
+Objetos posibles: "Tienda Central", "Sucursal Norte"
+
+Ejercicio 65 — EquipoDeFutbol
+
+Atributos: nombre, ciudad, jugadores
+Métodos: jugarPartido(), ficharJugador(), mostrarAlineacion()
+Objetos posibles: "Junior de Barranquilla", "Real Cartagena"
