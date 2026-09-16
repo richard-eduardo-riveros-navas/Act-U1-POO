@@ -1,0 +1,39 @@
+
+
+Ejercicio 71,72 Y 73
+
+class Materia {
+    String nombre;
+    int creditos;
+    String docente;
+
+    Materia(String nombre, int creditos, String docente) { // Ejercicio 71: con parámetros
+        this.nombre = nombre;
+        this.creditos = creditos;
+        this.docente = docente;
+    }
+
+    Materia(Materia otra) { // Ejercicio 73: constructor copia
+        this.nombre = otra.nombre;
+        this.creditos = otra.creditos;
+        this.docente = otra.docente;
+    }
+}
+
+
+Ejercicio 74
+Comparación de las formas de construcción La forma con new + asignación manual es la más fácil de
+entender al empezar, porque deja ver paso a paso cómo se llena cada atributo. Sin embargo, el constructor con
+parámetros resulta más claro y seguro para uso real, porque el objeto nace completo y evita olvidar asignar algún dato.
+El constructor copia es útil solo en casos puntuales, cuando se necesita partir de un objeto ya existente.
+
+
+Ejercicio 75
+Conclusión final Una clase es la definición de una estructura: qué datos (atributos) y qué acciones
+(métodos) tendrá un tipo de entidad, sin representar todavía ningún caso real. Un objeto es una instancia concreta de
+esa clase, con valores propios y existencia real dentro del programa. Instanciar es el proceso técnico de usar new
+sobre una clase para producir esa instancia; el objeto resultante es la consecuencia de ese proceso. Java se apoya en
+las clases como base de la POO porque permiten reutilizar una sola definición para crear tantos objetos como se
+necesiten, cada uno con su propio estado independiente, acercando el código a la forma en que naturalmente pensamos
+en las entidades del mundo real (estudiantes, cuentas, vehículos, productos), en lugar de dispersar esa información
+en variables y funciones sueltas como ocurre en la programación procedural.
