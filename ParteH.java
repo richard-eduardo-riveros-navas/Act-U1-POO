@@ -7,7 +7,7 @@ public class ParteH {
         double salario;
         String cargo;
     } //Modelar Empleado como clase es mejor que usar variables sueltas porque agrupa en un solo lugar todos los
-    // datos de un mismo empleado junto con lo que puede hacer. Mientras que con variables sueltas, si hay 50 empleados,
+    // Datos de un mismo empleado junto con lo que puede hacer. Mientras que con variables sueltas, si hay 50 empleados,
     // se necesitarían 150 variables sin relación explícita entre ellas; con la clase, cada empleado es un objeto
     // independiente y el código se mantiene ordenado sin importar cuántos empleados existan.
 
